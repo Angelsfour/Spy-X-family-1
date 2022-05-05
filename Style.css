@@ -7,6 +7,7 @@ background-color: white;
 padding: 0;
 margin: 0;
 text-align: center;
+max-width: 100%;
 }
 
 section {
@@ -22,7 +23,7 @@ font-size: 30px;
  }
 
 h1 {
-font-size: 50px;
+font-size: 80px;
  }
   
 p {
@@ -86,16 +87,24 @@ color: black;
 text-align: center;
 padding: 12px;
 text-decoration: none;
-font-size: 18px;
+font-size: 24px;
 line-height: 25px;
 transition: 300ms;
 cursor: pointer;
+}
+
+.logo {
+    font-size: 35px !important;
 }
 
 .Contents a:hover,
 .Contents a:active {
 transform: scale(1.1);
 
+}
+
+.home p, .home h3, .home h4 {
+    width: 700px;
 
 }
 
@@ -109,11 +118,72 @@ transform: scale(1.1);
     justify-content: space-around;
     }
 
-.home p, .Plot p {
+.home p, .Plot p, .anyaforger p, .loidforger p, .yorforger p {
     text-align: start;
 }
 
 a {
 text-decoration: none;
 color: #008F7A;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    }
+
+.flex2 {
+    justify-content:space-evenly !important;
+
+}
+
+.gif1 {
+height: 330px;
+width: 510px;
+margin: 30px;
+border-radius: 20px;
+}
+
+.gif3 {
+    width: 580px;
+    border-radius: 20px;
+}
+
+
+.yorContainer img {
+    width: 550px;
+    transform: scale(1.6);
+}
+
+.imgAnyaForger img {
+    width: 500px;
+    transform: scale(2.1);
+}
+
+.imgLoidForger img {
+    width: 500px;
+    transform: scale(1.7);
+}
+
+.AnLoImgCon img{
+    width: 350px;
+    transform: scale(0.9);
+}
+
+.LoidImg1 img {
+    width: 300px;
+    transform: scale(0.6);
+}
+
+.FinCon img{
+    width: 230px;
+    transform: scale(1.1);
+}
+
+.yorselfimg {
+   width: 200px; 
+   transform: scale(1.0);
 }
